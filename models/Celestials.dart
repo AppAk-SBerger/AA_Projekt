@@ -16,7 +16,12 @@ class Celestials {
     print("Periapsis: $perigee $unitOfPerigee");
     print("Apoapsos: $apogee $unitOfApogee");
   }
+
+  String readOut() {
+    return "\nName: $name\nGroße Halbachse: $semiMajorAxis $unitOfMajorAxis\nPeriapsis: $perigee $unitOfPerigee\nApoapsos: $apogee $unitOfApogee\n";
+  }
 }
+
 /*
 
 Celestials mercury = Celestials('Merkur', 0.387098, 'AE', 0.308, 'AE', 0.467, 'AE');
@@ -30,13 +35,12 @@ Celestials neptune = Celestials('Neptun', 30.178, 'AE', 29.885, 'AE', 30.471, 'A
 Celestials pluto = Celestials('Pluto', 39.482, 'AE', 29.659, 'AE', 49.305, 'AE');
 
 mercury.printOut();
-venus.printOut();
-moon.printOut();
-mars.printOut();
-jupiter.printOut();
-saturn.printOut();
-uranus.printOut();
-neptune.printOut();
-pluto.printOut();
+print(mercury.readOut());
 
 */
+
+void main(List<String> args) {
+  Celestials mercury =
+      Celestials('Merkur', 0.387098, 'AE', 0.308, 'AE', 0.467, 'AE');
+  print(mercury.readOut());
+}

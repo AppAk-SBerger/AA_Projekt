@@ -6,6 +6,8 @@ abstract class DatabaseRepository {
 
   // Read
   void getAllCelestials();
+  List<String> getAllCelestials2();
+  void getCelestial(Celestials celestial);
 
   // Update
   // void updateCelestial(Celestials oldCelestial, Celestials newCelestial);
