@@ -1,3 +1,9 @@
+2024/12/19
+App Akademie
+app-akademie.com
+batch #8 2024-2025
+student Sebastian Berger
+
 Astro-Almanach
 
 A mobile app for Stargazers to find celestial objects.
