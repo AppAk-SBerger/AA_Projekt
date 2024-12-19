@@ -5,10 +5,10 @@ abstract class DatabaseRepository {
   void addCelestial(Celestials celestial);
 
   // Read
-  List<Celestials> gettAllCelestials();
+  // List<Celestials> gettAllCelestials();
 
   // Update
-  void updateCelestial(Celestials oldCelestial, Celestials newCelestial);
+  // void updateCelestial(Celestials oldCelestial, Celestials newCelestial);
 
   // Delete
   void deleteCelestial(Celestials celestial);

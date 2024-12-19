@@ -6,7 +6,7 @@ void main() {
   DatabaseRepository mockDatabase = MockDatabase();
 
   // Erster Eintrag in Datenbank Imitation
-  final Celestials mercury =
+  Celestials mercury =
       Celestials('Merkur', 0.387098, 'AE', 0.308, 'AE', 0.467, 'AE');
   mockDatabase.addCelestial(mercury);
 
@@ -35,7 +35,7 @@ void main() {
       Celestials('Pluto', 39.482, 'AE', 29.659, 'AE', 49.305, 'AE');
   mockDatabase.addCelestial(pluto);
 
-  // Ausgabe aber Celestials
-  List<Celestials> allCelestials = mockDatabase.gettAllCelestials();
-  print(allCelestials);
+  // Ausgabe aller Celestials
+  // List<Celestials> allCelestials = mockDatabase.gettAllCelestials();
+  // print(allCelestials);
 }
