@@ -9,10 +9,12 @@ class MockDatabase implements DatabaseRepository {
     _celestials.add(celestial);
   }
 
-  // @override
-  // List<Celestials> gettAllCelestials() {
-  //   return _celestials;
-  // }
+  @override
+  void gettAllCelestials() {
+    for (Celestials celestial in _celestials) {
+      celestial.printOut();
+    }
+  }
 
   // @override
   // void updateCelestial(Celestials oldCelestial, Celestials newCelestial) {
