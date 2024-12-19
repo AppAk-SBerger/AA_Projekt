@@ -36,7 +36,7 @@ void main() {
   mockDatabase.addCelestial(pluto);
 
   // Ausgabe aller Celestials
-  mockDatabase.gettAllCelestials();
+  mockDatabase.getAllCelestials();
 
   // List<Celestials> allCelestials = mockDatabase.gettAllCelestials();
   // print(allCelestials);

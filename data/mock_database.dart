@@ -10,7 +10,7 @@ class MockDatabase implements DatabaseRepository {
   }
 
   @override
-  void gettAllCelestials() {
+  void getAllCelestials() {
     for (Celestials celestial in _celestials) {
       celestial.printOut();
     }
