@@ -1,3 +1,5 @@
+                           ~~~  Astro-Almanach  ~~~
+
 
                                   2024/12/19
 
@@ -7,10 +9,9 @@
                               batch #8 2024-2025
                            student Sebastian Berger
 
-                           ~~~  Astro-Almanach  ~~~
 
-   A mobile app for stargazers to find celestial bodies at the night-sky.
-                                                                           
+      A mobile app for stargazers to find celestial bodies at the night-sky.
+   
 
 
 Work done (latest first):
