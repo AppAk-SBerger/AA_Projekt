@@ -16,10 +16,15 @@
 
 Work done (latest first):
 
+v0.1.2 replaced not returning (void) READ function getAllCelestials() with a now returning one
+- database_repository.dart
+- mock_database.dart
+- main.dart
+
 v0.1.1 fixed the READ method for class Celestials
-- database_repository.dart line 8
-- mock_database.dart line 12-17
-- main.dart line 39
+- database_repository.dart
+- mock_database.dart
+- main.dart
 
 
 
