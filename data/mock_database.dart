@@ -11,14 +11,7 @@ class MockDatabase implements DatabaseRepository {
 
   // Read
   @override
-  void getAllCelestials() {
-    for (Celestials celestial in _celestials) {
-      celestial.printOut();
-    }
-  }
-
-  @override
-  List<String> getAllCelestials2() {
+  List<String> getAllCelestials() {
     List<String> runTimeString = [];
     for (Celestials celestial in _celestials) {
       runTimeString.add(celestial.readOut());
